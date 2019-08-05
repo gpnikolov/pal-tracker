@@ -7,3 +7,10 @@ applications:
     env:
       WELCOME_MESSAGE: Hello from the review environment
       JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
+      CF_API_URL: https://api.sys.evans.pal.pivotal.io
+      CF_ORG: gnikolov.ford.com
+      CF_SPACE: sandbox
+      CF_USERNAME: gnikolov@ford.com
+      CF_PASSWORD: j6cwvx33
+      GITHUB_USERNAME: gpnikolov
+      GITHUB_OAUTH_TOKEN: 433c1ea47fc22c742a66a8d0db2e6ba176f8131d
